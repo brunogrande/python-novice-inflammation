@@ -443,3 +443,24 @@ often reveals common reasons why you might get that error.
 > seasons = ['Spring', 'Summer', 'Fall', 'Winter']
 > print('My favorite season is ', seasons[4])
 > ~~~
+
+> ## Identifying a Comparison Logic Error {.challenge}
+>
+> A program can sometimes make mistakes without causing a fatal error.
+> These are called logic errors. 
+> These errors are the most dangerous, because they can go undetected and cause your data to be incorrectly analyzed, leading to irreproducible results. 
+>
+> 1. Read the code below, and (without running it) try to identify what the errors are.
+> 2. Run the code, and identify the unexpected behavior. 
+> 3. Fix the error.
+>
+> ~~~ {.python}
+> my_age = "24"
+> your_age = "7"
+> if my_age > your_age:
+>     print("I'm older.")
+> elif my_age < your_age:
+>     print("I'm younger.")
+> else:
+>     print("We're the same age.")
+> ~~~
